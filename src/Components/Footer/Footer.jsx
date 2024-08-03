@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Footer.css"
 import { assets } from "../../assets/assets"
 
@@ -8,8 +7,8 @@ const Footer = () => {
        <div className="footer-content">
            <div className="footer-content-left">
             <img src={assets.logo} alt=""/>
-            <div className="footer-social-icons">
-                <img src={assets.facebook_icon} alt="" />
+            <div className="app-platforms">
+                <img src={assets.facebook_icon} href = "pornhub.com"alt="pornhub.com"/>
                 <img src={assets.twitter_icon} alt="" />
                 <img src={assets.linkedin_icon} alt="" />
             </div>

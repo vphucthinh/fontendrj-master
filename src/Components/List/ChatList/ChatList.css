@@ -1,11 +1,11 @@
 .chatList {
-  padding: 10px;
-  background-color: rgb(102, 105, 108); /* Updated background color to match the screenshot */
+  padding: px;
+  background-color: #000; /* Changed to black */
   border-radius: 10px;
   max-width: 400px;
   margin: 0 auto;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Professional font */
+  box-shadow: 0 4px 12px rgba(195, 157, 157, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .userInfo {
@@ -13,13 +13,13 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  width: 100%; 
-  background-color: rgba(255, 255, 255, 0.2); 
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  backdrop-filter: blur(10px); 
-  border-radius: 10px; 
-  margin-bottom: 20px; 
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .user {
@@ -29,18 +29,18 @@
 }
 
 .avatar {
-  width: 50px; /* Updated to match larger avatar size */
-  height: 50px; /* Updated to match larger avatar size */
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  object-fit: cover; 
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-  margin-right: 15px; /* Ensure spacing consistency */
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-right: 15px;
 }
 
 h2 {
-  font-size: 16px; 
-  color: #fff; 
-  margin: 0; 
+  font-size: 16px;
+  color: #fff; /* White text color */
+  margin: 0;
 }
 
 .search {
@@ -49,12 +49,12 @@ h2 {
   justify-content: space-between;
   padding: 10px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.2); 
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  backdrop-filter: blur(10px); 
-  border-radius: 10px; 
-  margin-bottom: 20px; /* Ensure consistent spacing */
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .searchBar {
@@ -115,20 +115,20 @@ h2 {
 .item {
   display: flex;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.2) ;
+  background-color: rgba(255, 255, 255, 0.2);
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
   cursor: pointer;
-  border-left: 5px solid transparent; 
-  margin-bottom: 10px; 
+  border-left: 5px solid transparent;
+  margin-bottom: 10px;
 }
 
 .item:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  border-left-color: #007bff; 
+  border-left-color: #007bff;
 }
 
 .texts {
@@ -138,12 +138,12 @@ h2 {
 
 .name {
   font-weight: bold;
-  color: #333;
+  color: #fff; /* White text color */
   font-size: 16px;
 }
 
 .message {
-  color: black;
+  color: #fff; /* White text color */
   margin-top: 5px;
   font-size: 14px;
 }

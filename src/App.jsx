@@ -9,6 +9,7 @@ import LoginPopup from './Components/LoginPopup/LoginPopup'
 import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 import Chatting from './pages/Chatting/Chatting'
+import Profile from './pages/Profile/Profile'
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
          <Route path='/verify' element={<Verify/>} />
          <Route path='/myorders' element={<MyOrders/>} />
          <Route path='/chatting' element={<Chatting/>} />
+         <Route path='/profile' elemnet={<Profile/>} />
       </Routes>
     </div>
     <Footer/>

@@ -30,12 +30,12 @@
                 flex-direction: column;
                 gap: 5px;
 
-                span{
+                span {
                     font-size: 18px;
                     font-weight: bold;
                 }
 
-                p{
+                p {
                     font-size: 14px;
                     font-weight: 300;
                     color: #f267ba;
@@ -43,7 +43,7 @@
             }
         }
 
-        .icons{
+        .icons {
             display: flex;
             gap: 20px;
 
@@ -54,7 +54,7 @@
         }
     }
 
-    .center{
+    .center {
         padding: 20px;
         flex: 1;
         overflow: scroll;
@@ -62,53 +62,55 @@
         flex-direction: column;
         gap: 20px;
 
-        .message{
+        .message {
             max-width: 70%;
             display: flex;
             gap: 20px;
 
-            &.own{
+            &.own {
                 align-self: flex-end;
 
-                .texts{
-                    p{
+                .texts {
+                    p {
                         background-color: #5183fe;
                     }
                 }
             }
 
-            img{
+            img {
                 width: 30px;
                 height: 30px;
                 border-radius: 50%;
                 object-fit: cover;
             }
-            .texts{
-               flex: 1;
-               display: flex;
-               flex-direction: column;
-               gap: 5px;
 
-               img{
-                width: 100%;
-                height: 300px;
-                border-radius: 10px;
-                object-fit: cover;
-               }
+            .texts {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
 
-               p{
-                padding: 20px;
-                background-color: rgba(17, 25, 40, 0.3);
-                border-radius: 10px;
-               }
+                img {
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 10px;
+                    object-fit: cover;
+                }
 
-               span{
-                font-size: 13px;
-               }
+                p {
+                    padding: 20px;
+                    background-color: #5183fe;
+                    border-radius: 10px;
+                }
+
+                span {
+                    font-size: 13px;
+                }
             }
         }
     }
-    .bottom{
+
+    .bottom {
         padding: 20px;
         display: flex;
         align-items: center;
@@ -118,19 +120,19 @@
         margin-top: auto;
 
 
-        .icons{
+        .icons {
             display: flex;
-            gap: 20px;        
+            gap: 20px;
         }
 
-             img{
-                width: 20px;
-                height: 20px;
-                cursor: pointer;
-                background-color: none;
-            }
+        img {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            background-color: none;
+        }
 
-        input{
+        input {
             flex: 1;
             background-color: rgba(17, 25, 40, 0.5);
             border: none;
@@ -141,18 +143,18 @@
             font-size: 16px;
         }
 
-        .emoji{
+        .emoji {
             position: relative;
 
 
-            .picker{
+            .picker {
                 position: absolute;
                 bottom: 50px;
                 left: 0;
             }
         }
 
-        .sendButton{
+        .sendButton {
             background-color: #5183fe;
             color: white;
             padding: 10px 20px;
@@ -161,5 +163,5 @@
             cursor: pointer;
         }
     }
-    
+
 }

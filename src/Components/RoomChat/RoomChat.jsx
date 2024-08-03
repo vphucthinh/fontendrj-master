@@ -20,7 +20,7 @@ const RoomChat = () => {
           <img src={assets.avatar} alt="" />
           <div className="texts">
              <span>Hotaru</span>
-             <p>Gomen, amanai. Ore wa ima~~ omae no</p>
+             <p>Gomene, amanai. Ore wa ima~~ omae no</p>
           </div>
         </div>
         <div className="icons">
